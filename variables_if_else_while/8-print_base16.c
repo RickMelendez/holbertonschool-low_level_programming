@@ -4,13 +4,12 @@
  *
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 	char n;
 	char t;
 
-	for (n = '0'; n >= '9'; n++)
+	for (n = '0'; n <= '9'; n++)
 	{
 		putchar(n);
 	}
