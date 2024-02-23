@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *print_line- It prints a line
+ *print_line- prints a line
  *@n: numbers of times
  *
  */
@@ -13,6 +13,6 @@ void print_line(int n)
 			{
 				_putchar('_');
 			}
-			_putchar('\n');
 		}
+			_putchar('\n');
 }
